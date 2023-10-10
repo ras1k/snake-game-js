@@ -1,57 +1,63 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
-    body, html {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-    #game-board {
-      position: absolute;
-      border: 5px solid #ffffff;
-      width: 99.5%;
-      height: 99%;
-      background: rgb(48,69,149);
-      background: linear-gradient(97deg, rgba(48,69,149,1) 0%, rgba(67,154,158,1) 52%, rgba(194,135,210,1) 92%);
-    }
-    #score-display {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      color: white;
-      font-size: 24px;
-    }
-    #speed-control {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        color: white;
-      }
-      #speed-label {
-        font-size: 18px;
-        margin-right: 10px;
-      }
-      #speed-slider {
-        width: 150px;
-        -webkit-appearance: none;
-        appearance: none;
-        height: 5px;
-        background: linear-gradient(to right, red, yellow, green);
-        outline: none;
-        opacity: 0.7;
-        -webkit-transition: .2s;
-        transition: opacity .2s;
-      }
-      #speed-slider::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 15px;
-        height: 15px;
-        background: #4CAF50;
-        cursor: pointer;
-      }
-      #speed-slider::-moz-range-thumb {
-        width: 15px;
-        height: 15px;
-        background: #4CAF50;
-        cursor: pointer;
-      }
-   
+#game-board {
+    position: absolute;
+    border: 5px solid #ffffff;
+    width: 99.5%;
+    height: 99%;
+    background: rgb(48, 69, 149);
+    background: linear-gradient(97deg, rgba(48, 69, 149, 1) 0%, rgba(67, 154, 158, 1) 52%, rgba(194, 135, 210, 1) 92%);
+}
+
+#score-display {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+#speed-control {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+
+#speed-label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#speed-slider {
+    width: 150px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: linear-gradient(to right, red, yellow, green);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#speed-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+#speed-slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #4CAF50;
+    cursor: pointer;
+}

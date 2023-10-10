@@ -2,6 +2,8 @@
 const canvas = document.getElementById('game-board');
 const ctx = canvas.getContext('2d');
 const scoreDisplay = document.getElementById('score-display');
+const eatSound = document.getElementById('eatSound');
+const dieSound = document.getElementById('dieSound');
 
 const gridSize = 20;
 const snakeColor = 'white';
@@ -75,6 +77,8 @@ function moveSnake() {
         score += 10;
         updateScoreDisplay();
         generateFood();
+
+        eatSound.play();
     } else {
         snake.pop();
     }
@@ -115,6 +119,9 @@ function checkCollision() {
 
 function gameOver() {
     clearInterval(gameInterval);
+
+    dieSound.play();
+
     alert(`Game Over! Your score is ${score}`);
     gameStarted = false;
 }
