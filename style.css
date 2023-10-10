@@ -19,3 +19,39 @@
       color: white;
       font-size: 24px;
     }
+    #speed-control {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: white;
+      }
+      #speed-label {
+        font-size: 18px;
+        margin-right: 10px;
+      }
+      #speed-slider {
+        width: 150px;
+        -webkit-appearance: none;
+        appearance: none;
+        height: 5px;
+        background: linear-gradient(to right, red, yellow, green);
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+      }
+      #speed-slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        background: #4CAF50;
+        cursor: pointer;
+      }
+      #speed-slider::-moz-range-thumb {
+        width: 15px;
+        height: 15px;
+        background: #4CAF50;
+        cursor: pointer;
+      }
+   
