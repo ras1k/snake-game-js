@@ -7,7 +7,7 @@ html {
 
 #game-board {
     position: absolute;
-    border: 5px solid #ffffff;
+    border: 5px dashed #ffffff;
     width: 99.5%;
     height: 99%;
     background: rgb(48, 69, 149);
