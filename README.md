@@ -1,6 +1,7 @@
 # Simple Snake Game
 
-## Live Site [Link](https://snake-game-js-ras1k.vercel.app/)
+## Links: 
+* [Live](https://snake-game-js-ras1k.vercel.app/)
 
 ## Instructions to play:
 * Press Space button to start the game.
